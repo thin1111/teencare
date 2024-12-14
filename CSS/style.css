@@ -1,0 +1,542 @@
+*{
+    font-family: sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.NavigationContainer ul{
+    list-style: none;
+}
+.NavigationContainer li{
+    display: inline-block;
+    position: relative;
+}
+.NavigationContainer ul li a{
+    color: white;
+    padding: 10px 20px;
+    flex-wrap: nowrap;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #023e8a;
+}
+.NavigationContainer{
+    margin-left: -7%;
+}
+.NavigationContainer ul li a:hover{
+    background-color: #112c66;
+}
+.NavigationContainer ul li:hover #dropdown{
+    display: block;
+    text-align: start;
+}
+.NavigationContainer ul li #dropdown li{
+    display: block;
+}
+#dropdown{
+    width: 200px;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    margin-left: -69px;
+}
+#dropdown:hover{
+    display: block;
+}
+
+#dropdown li{
+    list-style: none;
+}
+#dropdown li a{
+    color: white;
+    text-decoration: none;
+}
+
+html{
+    height: 100%;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #023e8a;
+    height: 54px;
+    padding: 10px;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    display: inline;
+}
+
+#RealLogo{
+    height: 50px;
+    display: inline-block;
+    margin-top: 17px;
+}
+
+#TipsIndex{
+    text-decoration: none;
+    
+}
+
+.menu {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    display: inline;
+}
+
+.menu:hover{
+    text-decoration: underline;
+}
+
+.links{
+    background: rgb(34, 48, 61);
+    width: 100%;
+    border-radius: 5%;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    margin-left: 35%;
+}
+
+.links a:hover{
+    text-decoration: underline;
+}
+
+#InfoIone{
+    width: 25%;
+    border: 2px solid black;
+    margin-right: 20px;
+    align-self: center;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+#InfoItwo{
+    width: 25%;
+    border: 2px solid black;
+    margin-right: 20px;
+    align-self: center;
+    margin-top: 10px;
+}
+
+#InfoIthree{
+    width: 25%;
+    border: 2px solid black;
+    margin-right: 20px;
+    align-self: center;
+    margin-top: 10px;
+}
+
+#InformationParagraphOne{
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#InformationParagraphTwo{
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#InformationParagraphThree{
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.ContentTipsForEverything{
+    margin: 20px;
+}
+
+.Heading2Tips1Page{
+    margin-left: 10px;
+}
+
+.bodysection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.body {
+    height: auto;
+}
+
+
+
+.OneInfoContainer{
+    height: 170px;
+    background: #EAE0D5;
+}
+
+.Footer {
+    background-color: #023e8a;
+    height: auto;
+    color: white;
+    padding: 20px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fa-brands{
+    font-size: 35px;
+    margin-right: 10px;
+}
+
+
+.fa-regular{
+  margin-top: 40px;
+
+}
+
+.copy{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Bannerr{
+    width: 100%;
+}
+#icons i:hover{
+    font-size: 30px;
+    transition: 0.8s;
+}
+#icons i{
+    margin: 10px;
+}
+
+.nag a:hover{
+    transition: 0.9s;
+}
+
+.nag{
+    display: flex;
+}
+
+.NavigationContainer{
+    display: flex;
+    margin-top: 11px;
+}
+
+.InfoParagraphOne{
+    margin: 5px;
+    font-size: 15px;
+}
+
+.TitleInformation{
+    margin-left: 10px;
+    font-size: 3vw;
+}
+
+.TitleInformationContainer{
+    display: flex;
+    justify-content: center;
+}
+
+#HiddenPhotoOne{
+    display: none;
+}
+
+#HiddenPhotoTwo{
+    display: none;
+}
+
+#HiddenPhotoThree{
+    display: none;
+}
+.IntroductionPhotosContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height: auto;
+    margin: 80px;
+    flex-wrap: wrap;
+    max-width: 90%;
+}
+.Teenager_Tips_Photos{
+    height: 100px;
+    width: 25%;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: -5px;
+}
+.IntroductionContainer{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+#logofooter{
+    width: 100%;
+    margin-top: -2%;
+    margin-right: 5%;
+}
+
+.ReadMore{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #111;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.ReadMore:hover{
+    color: green;
+    transition: 0.5s
+}
+
+.MainPhotosOfTitles{
+    width: 100%;
+    height: auto;
+}
+
+.btn btn-primary signUp{
+    color: #57CC99;
+}
+
+
+
+.FirstRowContainerIndex{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.SecondRowContainerIndex{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ThirdRowContainerIndex{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.FourthRowContainerIndex{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.EverythingContainerIndex{
+    width: 100%;
+    height: auto;
+}
+
+.ParentsProblem{
+    width: 25%;
+    height: auto;
+}
+
+.TeenagersProblem{
+    width: 25%;
+    height: auto;
+}
+
+.Preventing{
+    width: 25%;
+    height: auto;
+}
+
+.TimeForKids{
+    width: 25%;
+    height: auto;
+}
+
+.RoleModel{
+    width: 25%;
+    height: auto;
+}
+
+.UnconditionalLove{
+    width: 25%;
+    height: auto;
+}
+
+.TakeCareActions{
+    width: 25%;
+    height: auto;
+}
+
+#ParentsProblemImageIndex{
+    width: 100%;    
+}
+   
+#TeenagersProblemImageIndex{
+    width: 100%;
+}
+
+#PreventingImageIndex{
+    width: 100%;
+}
+
+#TimeForKidsImageIndex{
+    width: 100%;
+}
+
+#RoleModelImageIndex{
+    width: 100%;
+}
+
+#UnconditionalLoveImageIndex{
+    width: 100%;
+}
+
+#TakeCareImageIndex{
+    width: 100%;
+}
+
+.FooterContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+.FooterLogoContainer{
+    /* background: black; */
+    width: 25%;
+    height: auto;
+}
+
+.QuickLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.ApplicationFooter{
+    width: 100%;
+    border-radius: 5%;
+    margin-top: 10px;
+}
+
+.ApplicationFooter a{
+    text-decoration: none;
+}
+
+#YoutubeContainer a{
+    color: red;
+}
+
+#TwitterContainer a{
+    color: black;
+}
+
+#InstagramContainer a{
+    color: #7757c1;
+}
+
+
+
+
+
+@media all and (max-width: 700px){
+
+    .FirstRowContainerIndex{
+        width: 100%;
+        height: auto;
+        display: flex;
+        
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .NavigationContainer ul li a{
+        font-size: 9px;
+    }
+
+    .ParentsProblem{
+        width: 90%;
+        height: auto;
+    }
+
+    .TeenagersProblem{
+        width: 90%;
+        height: auto;
+    }
+
+    .SecondRowContainerIndex{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .Preventing{
+        width: 90%;
+        height: auto;
+    }
+    
+    .TimeForKids{
+        width: 90%;
+        height: auto;
+    }
+
+    .ThirdRowContainerIndex{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .RoleModel{
+        width: 90%;
+        height: auto;
+    }
+    
+    .UnconditionalLove{
+        width: 90%;
+        height: auto;
+    }
+
+    .FourthRowContainerIndex{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .TakeCareActions{
+        width: 90%;
+        height: auto;
+    }
+
+    .MapFooter{
+       width: 100%; 
+    }
+}

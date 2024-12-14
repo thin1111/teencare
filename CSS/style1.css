@@ -1,0 +1,256 @@
+
+#link li{
+    list-style: none;
+}
+#link li a{
+    text-decoration: none;
+    margin-left: 35px;
+}
+#link li a:hover{
+    font-size: 20px;
+}
+#contact{
+    margin-top: 100px;
+}
+
+#copy{
+    text-align: center;
+    background: rgb(14, 20, 59);
+}
+
+#mission{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+.mission1{
+    display: flex;
+    background: none;
+}
+.mission1 div{
+    margin: 20%;
+    background: none;
+}
+
+#ban{
+    background: url(https://wallpapercave.com/wp/wp3411957.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1515px;
+    height: 1000px;
+}
+#ban h1{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+#ban h3{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin: 30PX;
+    margin-top: 70px;
+}
+#ban button{
+    margin: 20%;
+    font-size: 40px;
+    background-color: white;
+    margin-left: 600px;
+    box-shadow: 2px 3px 1px 1px;
+}
+#ban button a{
+    text-decoration: none;
+    color: #111;
+    text-align: center;
+}
+.me{
+    border: 1px solid black;
+    text-align: center;
+}
+.me img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+#we{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+}
+#We2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    text-align: center;
+}
+.me li{
+    margin-top: 50px;
+    list-style: none;
+}
+#us{
+    background-color: blanchedalmond;
+    text-align: center;
+    height: 500px;
+}
+.me{
+    display: flex;
+    text-align: center;
+    background-color: beige;
+}
+
+.mission1 div p{
+    color: black;
+}
+#ban{
+    background: url(https://wallpapercave.com/wp/wp3411957.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+#ban h1{
+    color: white;
+    font-size: 100px;
+    background: none;
+    text-align: center;
+}
+#ban h3{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin: 30px;
+    margin-top: 70px;
+    background: none;
+}
+#ban button{
+    margin: 20%;
+    font-size: 40px;
+    background-color: white;
+    margin-left: 600px;
+    box-shadow: 2px 3px 1px 1px;
+}
+#ban button a{
+    text-decoration: none;
+    color: #111;
+    text-align: center;
+    background: none;
+}
+
+#ban button a:hover{
+    background: red;
+}
+
+.me{
+    border: 1px solid black;
+    text-align: center;
+}
+.me img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+#we{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;/*
+    background: rgb(62, 7, 7);*/
+}
+#We2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    /* text-align: center;
+    background: rgb(62, 7, 7); */
+}
+.me li{
+    margin-top: 50px;
+    list-style: none;
+    background: rgb(62, 7, 7);
+}
+
+.me ul{
+    background: rgb(62, 7, 7);
+}
+
+#us{
+    background-color: rgb(62, 7, 7);
+    text-align: center;
+    height: 500px;
+}
+.me{
+    display: flex;
+    text-align: center;
+    background-color: rgb(62, 7, 7);
+}
+
+.Nav_Foot{
+    background: none;
+}
+
+#ztsmyform{
+	background: black;
+    color: white;
+	border: 2px;
+	width: 30%;
+	padding: 20px;
+	margin-left:auto;
+	margin-right:auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+	border-radius: 20px;
+}
+input[type='submit']{
+     width: 100%;
+     /* background: linear-gradient(to left, pink, purple); */
+     color: green;
+     padding: 14px 20px;
+     margin:8px 0;
+     border-radius: 5px;
+     background-color: #111;
+     
+   }
+   input[type='submit']:hover{
+     background: linear-gradient(to left, orange, salmon);
+     border-radius: 10px;
+     color: white;
+     
+   }
+   input[type='text'],input[type='password'],input[type='Email']{
+     width: 100%;
+     padding: 12px 20px;
+     margin:8px 0 ;
+     display: inline-block;
+     border: 1px solid ;
+     border-radius: 4px;
+     box-sizing: border-box;
+   }
+   #king{
+     list-style: none;
+     text-indent: 10%;
+   }
+   button{
+    width: 100%;
+    background-color: green;
+    color: white;
+    height: 50px;
+    border-radius: 50px;
+}
+button a strong{
+    color: white;
+    font-style: none;
+}
+button a strong:hover{
+    color: green;
+}
+button a{
+    text-decoration: none;
+}
+   @media all and (max-width:700px){
+    #ztsmyform{
+      height:600px;
+      width:300px;
+    }
+   }
